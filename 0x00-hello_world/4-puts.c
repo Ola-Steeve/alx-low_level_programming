@@ -10,9 +10,9 @@
  *
  *     */
 
-int main(void)
+int main()
 {
-	char olastr[]= "Programming is like building a multilingual puzzle\n";
+	char olastr[]= "\"Programming is like building a multilingual puzzle\n";
 	
 
 	puts(olastr);
