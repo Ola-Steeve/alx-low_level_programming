@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - Entry point
  *
@@ -7,17 +7,16 @@
 int main(void)
 {
 	char a;
-	char b;
 
-	for (a = 'a'; a <= 'z'; a++)
-	{ 
-		putchar(a);
-	} 
-	for (b = 'A'; b <= 'Z'; b++)
+	for (a='a'; a<='z'; a++)
 	{
-		putchar(b);
+		if (a == 'q' || a == 'e')
+		{
+			continue;
+		}
+		putchar(a);
 	}
 	putchar('\n');
-
 	return (0);
 }
+

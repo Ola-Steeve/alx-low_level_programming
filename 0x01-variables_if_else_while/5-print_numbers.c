@@ -6,14 +6,11 @@
  */
 int main(void)
 {
-	char lower;
-
-	for (lower = 'a'; lower <= 'z'; lower++)
+	int a;
+	
+	for(a=0; a < 9; a++)
 	{
-		putchar(lower);
+		printf("%d\n", a);
 	}
-
-		putchar('\n');
-
-		return (0);
+	return (0);
 }
