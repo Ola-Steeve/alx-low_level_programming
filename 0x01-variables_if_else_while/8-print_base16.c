@@ -6,18 +6,20 @@
  */
 int main(void)
 {
-	char a;
-	char b;
+	unsigned char a = '0';
+	int i;
 
-	for (a = 'a'; a <= 'z'; a++)
+	for (i = 0; i < 10; i++)
 	{
 		putchar(a);
+		a++;
 	}
-	for (b = 'A'; b <= 'Z'; b++)
+	a = '1';
+	for (i = 0; i < 6; i++)
 	{
-		putchar(b);
+		putchar('0' + a);
+		a++;
 	}
 	putchar('\n');
-
 	return (0);
 }
