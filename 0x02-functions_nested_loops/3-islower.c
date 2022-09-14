@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
+ * _islower - Main function
  *
+ * @c: character to compare
  * Return: Always 0 (Success)
  */
 int _islower(int c)
