@@ -14,3 +14,13 @@ int isalpha(int c)
 	}
 	return (0);
 }
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	test_isalpha('H');
+	return (0);
+}
