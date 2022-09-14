@@ -1,13 +1,18 @@
 #include "main.h"
-#include "_abs.c"
 /**
- * print_last_digit - Mian function
- * 
- * @n: integer to get last digit of
- * Return last digit of n
+ *print_last_digit - Prints the last digit of a numbe
+ *@n: The number in question
+ *Return: value of thr last digit
  */
 int print_last_digit(int n)
 {
-	_putchar('0' + _abs(n % 10));
-	return (_abs(n % 10));
+	int last_digit = n % 10;
+	
+	if (last_digit < 0)
+	{
+		last_digit *= -1;
+	}
+	_putchar(last_digit + '0');
+
+	return (last_digit);
 }
