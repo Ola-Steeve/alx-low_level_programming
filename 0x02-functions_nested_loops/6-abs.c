@@ -2,6 +2,8 @@
 /**
  * _abs - Main function
  *
+ * @n: integer to make absolute
+ *
  * Return int or int times neg
  */
 int _abs(int n)
