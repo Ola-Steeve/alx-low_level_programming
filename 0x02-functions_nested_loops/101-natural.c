@@ -1,22 +1,20 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ *main - Entry point
  *
- * Return: Always 0
+ *Return: Always 0(Success)
  */
 int main(void)
 {
-	int a;
-	int b = 0;
+	int n;
+	sum = 0;
 
-	for (a = 0; a < 1024; a++)
+	for (n = 0; n < 1024; n++)
 	{
-		if (a % 3 == 0 || a % 5 == 0)
+		if ((n % 3) == 0 || (n % 5) == 0)
 		{
-			b += a;
+			sum += n;
 		}
 	}
-	printf("%d\n", d);
-	return (0);
+	printf("%d\n", sum);
 }
-			
