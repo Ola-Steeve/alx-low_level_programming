@@ -2,7 +2,7 @@
 /**
  *print_most_numbers - entry point
  *
- *Description: Prinys the number with _putchar
+ *Description: Prints the number with _putchar
  *Return: void
  */
 void print_most_numbers(void)
