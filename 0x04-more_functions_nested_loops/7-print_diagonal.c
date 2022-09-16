@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *
+ *print_diagonal - entry point
  *Description: prints diagonals
 *@n: num of spaces
  *Return: void
@@ -25,7 +25,7 @@ _putchar(' ');
 }
 }
 _putchar('\\');
-_putchar('\n'');
+_putchar('\n');
 }
 }
 }
