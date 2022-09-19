@@ -6,7 +6,11 @@
  */
 int _strlen(char *s)
 {
-	for (c = 0; s[c] != '\0'; c++)
-		;
-	return (c);
+	int i;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+	}
+
+	return (i);
 }
