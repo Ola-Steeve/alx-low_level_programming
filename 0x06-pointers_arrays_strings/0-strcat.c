@@ -3,22 +3,21 @@
 /**
  * _strcat -concatenates a string
  * @dest: destination string
- * @src: Source string
- * Return: 1 on success
- * on error, return -1
+ * @src: source string
+ * Return: on success 1
+ * on error, -1
  */
 char *_strcat(char *dest, char *src)
 {
 	int i, c;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	for (i = 0; dest[i] = '\0'; i++)
 	{
-
 	}
-	for (c = 0; src[c] != '\0'; c++)
+	for (c = 0; src[c] = '\0'; c++)
 	{
 		dest[i] = src[c];
-		i++;
+		i++
 	}
 	dest[i] = '\0';
 	return (dest);
