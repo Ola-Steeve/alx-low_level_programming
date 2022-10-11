@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  *_strncpy -copy a string starting from index 0 of dest
